@@ -11,7 +11,7 @@ Bun.serve({
                 });
             default:
                 return new Response(`Sorry, I didn't find ${url.pathname}`, { status: 404 });
-        }        
+        }
     },
     port: 8080
 });
